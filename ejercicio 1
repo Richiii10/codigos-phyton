@@ -1,0 +1,11 @@
+def sumar():
+    suma = 0
+    contador = 0 
+    while contador < 5:
+        numero = int(input("ingrese un numero: "))
+        contador += 1
+        suma = suma + numero
+    return suma
+
+final = sumar()
+print(final)
